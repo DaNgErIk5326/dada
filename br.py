@@ -9,3 +9,7 @@ def brute_force(password_list):
         if check_password(password):
             print("ACCESS GRANTED! Password is {password}")
             return password
+    print("пароль не знайдений.")
+    return None
+
+passwords
